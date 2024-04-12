@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-container {
+  font-family: 'Roboto';
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  color: #0f172a;
+  font-size: 32px;
+}
+.count-category {
+  color: #334155;
+  font-size: 20px;
+}
+.increment-button {
+  font-size: 12px;
+  border: 2px solid #0f172a;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.note{
+  color:#334155;
+  font-size: 12px;
+}
